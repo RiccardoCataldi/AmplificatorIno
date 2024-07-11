@@ -8,10 +8,6 @@ Il progetto prevede la realizzazione di un accordatore per chitarra utilizzando 
 
 Link a repo: https://github.com/RiccardoCataldi/AmplificatorIno.git
 
-## Descrizione del Circuito
-
-![Circuito Breadboard](https://github.com/RiccardoCataldi/AmplificatorIno/blob/main/ArduinioAmp.png)
-
 # Componenti necessari :
 - (x1) TL072 Op. Amp.
 - (x2) 9V battery
