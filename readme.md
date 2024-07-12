@@ -1,7 +1,7 @@
 # Guitar TunerIno
 
-Autore: Riccardo Cataldi\n
-Data di presentazione: Luglio
+Autore: Riccardo Cataldi
+- Data di presentazione: Luglio
 
 # Descrizione: 
 Il progetto prevede la realizzazione di un accordatore per chitarra utilizzando un microcontrollore Arduino e un display LCD. Questo accordatore è in grado di rilevare la frequenza del suono prodotto da una corda della chitarra, identificarla e confrontarla con le frequenze di riferimento delle corde standard di una chitarra. L'accordatore mostra sul display LCD la corda più vicina alla frequenza rilevata e la differenza in Hertz tra la frequenza suonata e quella di riferimento.
