@@ -1,6 +1,6 @@
 # Guitar TunerIno
 
-Autore: Riccardo Cataldi
+Autore: Riccardo Cataldi\n
 Data di presentazione: Luglio
 
 # Descrizione: 
