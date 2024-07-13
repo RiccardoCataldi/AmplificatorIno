@@ -20,4 +20,4 @@ Il progetto prevede la realizzazione di un accordatore per chitarra utilizzando 
 ![alt text](https://github.com/RiccardoCataldi/Arduino-Guitar-Tuner/blob/main/progetto.jpeg)
 
 # Licenza : 
-Codice e schema hardware disponibili sotto licenza GNU-GPLv3.
+Codice disponibile sotto licenza GNU-GPLv3.
