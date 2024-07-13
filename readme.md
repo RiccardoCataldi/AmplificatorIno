@@ -16,8 +16,8 @@ Il progetto prevede la realizzazione di un accordatore per chitarra utilizzando 
 - (x1) 47nF ceramic 
 - (x1) Arduino Uno  
 
-# Licenza : 
-Codice e schema hardware disponibili sotto licenza GNU-GPLv3.
-
 # Foto Progetto
 ![alt text](https://github.com/RiccardoCataldi/Arduino-Guitar-Tuner/blob/main/progetto.jpeg)
+
+# Licenza : 
+Codice e schema hardware disponibili sotto licenza GNU-GPLv3.
