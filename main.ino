@@ -1,11 +1,8 @@
 #include <LiquidCrystal.h>
 
-// initialize the library by associating any needed LCD interface pin
-// with the Arduino pin number it is connected to
 const int rs = 10, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
-// Clipping indicator variables
 boolean clipping = 0;
 
 // Data storage variables
@@ -36,7 +33,6 @@ byte ampThreshold = 30;  // Raise if you have a very noisy signal
 const float referenceFrequencies[] = {82.40, 110.00, 146.80, 196.00, 246.90, 329.60};
 const char* stringNames[] = {"E (Basso)", "A", "D", "G", "B", "E"};
 
-// Function to find the closest string and its difference from the detected frequency
 void findClosestString(float freq, const char*& closestString, float& frequencyDifference) {
   float minDifference = abs(referenceFrequencies[0] - freq);
   closestString = stringNames[0];
@@ -54,7 +50,6 @@ void findClosestString(float freq, const char*& closestString, float& frequencyD
 
 void setup() {
   lcd.begin(16, 2);
-  // Print a message to the LCD
   lcd.print("TUNER");
   Serial.begin(9600);
 
